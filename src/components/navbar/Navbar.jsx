@@ -14,11 +14,11 @@ const Navbar = () => {
           <img src={logo} alt='logo' />
         </div>
         <div className='gpt3__navbar-links_container'>
-          <p><a href="#home"></a>Home</p>
-          <p><a href="#wgpt3"></a>What is GPT3</p>
-          <p><a href="#possibility"></a>Open AI</p>
-          <p><a href="#features"></a>Case Studies</p>
-          <p><a href="#blog"></a>Libriary</p>
+          <p><a href="#home">Home</a></p>
+          <p><a href="#wgpt3">What is GPT3</a></p>
+          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#features">Case Studies</a></p>
+          <p><a href="#blog">Libriary</a></p>
         </div>
       </div>
 
@@ -36,11 +36,11 @@ const Navbar = () => {
           toggleMenu && (
             <div className="gpt3__navbar-menu_container scale-up-center">
               <div className="gpt3__navbar-menu_container-links">
-                <p><a href="#home"></a>Home</p>
-                <p><a href="#wgpt3"></a>What is GPT3</p>
-                <p><a href="#possibility"></a>Open AI</p>
-                <p><a href="#features"></a>Case Studies</p>
-                <p><a href="#blog"></a>Libriary</p>
+                <p><a href="#home">Home</a></p>
+                <p><a href="#wgpt3">What is GPT3</a></p>
+                <p><a href="#possibility">Open AI</a></p>
+                <p><a href="#features">Case Studies</a></p>
+                <p><a href="#blog">Libriary</a></p>
                 <div className="gpt3__navbar-menu_container-links-sign">
                   <p>Sign in</p>
                   <button type='button'>Sign up</button>
